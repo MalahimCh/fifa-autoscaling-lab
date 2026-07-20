@@ -1,0 +1,112 @@
+[
+  {
+    "rank": 1,
+    "name": "Kylian Mbappe",
+    "country": "France",
+    "flag": "/images/flags/france.png",
+    "image": "/images/players/mbappe.avif",
+    "position": "FW",
+    "goals": 10,
+    "assists": 4,
+    "minutes": 769
+  },
+  {
+    "rank": 2,
+    "name": "Lionel Messi",
+    "country": "Argentina",
+    "flag": "/images/flags/argentina.png",
+    "image": "/images/players/messi.avif",
+    "position": "FW",
+    "goals": 8,
+    "assists": 4,
+    "minutes": 853
+  },
+  {
+    "rank": 3,
+    "name": "Jude Bellingham",
+    "country": "England",
+    "flag": "/images/flags/england.png",
+    "image": "/images/players/bellingham.avif",
+    "position": "MF",
+    "goals": 7,
+    "assists": 1,
+    "minutes": 698
+  },
+  {
+    "rank": 4,
+    "name": "Erling Haaland",
+    "country": "Norway",
+    "flag": "/images/flags/norway.png",
+    "image": "/images/players/haaland.avif",
+    "position": "FW",
+    "goals": 7,
+    "assists": 0,
+    "minutes": 537
+  },
+  {
+    "rank": 5,
+    "name": "Ousmane Dembele",
+    "country": "France",
+    "flag": "/images/flags/france.png",
+    "image": "/images/players/dembele.avif",
+    "position": "FW",
+    "goals": 6,
+    "assists": 2,
+    "minutes": 648
+  },
+  {
+    "rank": 6,
+    "name": "Harry Kane",
+    "country": "England",
+    "flag": "/images/flags/england.png",
+    "image": "/images/players/kane.avif",
+    "position": "FW",
+    "goals": 6,
+    "assists": 1,
+    "minutes": 732
+  },
+  {
+    "rank": 7,
+    "name": "Mikel Oyarzabal",
+    "country": "Spain",
+    "flag": "/images/flags/spain.png",
+    "image": "/images/players/oyarzabal.avif",
+    "position": "FW",
+    "goals": 5,
+    "assists": 1,
+    "minutes": 664
+  },
+  {
+    "rank": 8,
+    "name": "Ismaila Sarr",
+    "country": "Senegal",
+    "flag": "/images/flags/senegal.png",
+    "image": "/images/players/sarr.avif",
+    "position": "FW",
+    "goals": 4,
+    "assists": 1,
+    "minutes": 419
+  },
+  {
+    "rank": 9,
+    "name": "Julian Quinones",
+    "country": "Mexico",
+    "flag": "/images/flags/mexico.png",
+    "image": "/images/players/quinones.avif",
+    "position": "FW",
+    "goals": 4,
+    "assists": 1,
+    "minutes": 440
+  },
+  {
+    "rank": 10,
+    "name": "Vinicius Junior",
+    "country": "Brazil",
+    "flag": "/images/flags/brazil.png",
+    "image": "/images/players/vinicius.avif",
+    "position": "FW",
+    "goals": 4,
+    "assists": 1,
+    "minutes": 505
+  }
+]
