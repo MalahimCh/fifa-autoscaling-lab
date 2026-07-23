@@ -130,7 +130,7 @@ npm run build
 
 ## Launch Template
 
-![Launch Template](screenshots/launch template.png)
+![Launch Template](screenshots/launch-template.png)
 
 ---
 
@@ -142,7 +142,7 @@ Configuration:
 - **Desired Capacity:** 2
 - **Maximum Capacity:** 3
 
-![Auto Scaling Group](screenshots/auto scaling group.png)
+![Auto Scaling Group](screenshots/asg.png)
 
 ---
 
@@ -157,7 +157,7 @@ Configuration:
 
 When the average CPU utilization exceeded the configured threshold, the Auto Scaling Group automatically launched an additional EC2 instance. When CPU utilization returned to normal, unnecessary instances were terminated automatically.
 
-![Scaling Policy](screenshots/target tracking policy.png)
+![Scaling Policy](screenshots/policy.png)
 
 ---
 
@@ -165,7 +165,7 @@ When the average CPU utilization exceeded the configured threshold, the Auto Sca
 
 The Application Load Balancer distributes incoming requests across all healthy EC2 instances registered in the Target Group.
 
-![Application Load Balancer](screenshots/Application load balancer.png)
+![Application Load Balancer](screenshots/alb.png)
 
 ---
 
@@ -173,7 +173,7 @@ The Application Load Balancer distributes incoming requests across all healthy E
 
 The Target Group continuously performs health checks and routes traffic only to healthy EC2 instances.
 
-![Target Group](screenshots/target groups.png)
+![Target Group](screenshots/target-groups.png)
 
 ---
 
@@ -227,11 +227,11 @@ During testing:
 
 ### CPU Utilization Graphs
 
-![CPU Utilization 1](screenshots/CPU Utilization 1.png)
+![CPU Utilization 1](screenshots/CPU-utilization-1.png)
 
-![CPU Utilization 2](screenshots/CPU Utilization 2.png)
+![CPU Utilization 2](screenshots/CPU-utilization-2.png)
 
-![CPU Utilization 3](screenshots/CPU Utilization 3.png)
+![CPU Utilization 3](screenshots/CPU-utilization-3.png)
 
 ---
 
@@ -252,7 +252,7 @@ Once the stress test ended and CPU utilization returned to normal:
 - The Auto Scaling Group automatically terminated the additional instances.
 - The infrastructure eventually scaled back down to **1 running EC2 instance**, demonstrating automatic scale-in based on reduced demand.
 
-![Auto Scaling Activity](screenshots/Activity logs of asg.png)
+![Auto Scaling Activity](screenshots/Activity-logs-of-asg.png)
 
 ---
 
